@@ -10,8 +10,8 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 	for (let i = 1; i <=10 ; i++) {
 		let selectt=$("#selectNum").html();
-		console.log(i);
-		console.log($("#selectNum").html("<option value='"+i+"'>"+i+"</option>"));
+		//console.log(i);
+		//console.log($("#selectNum").html("<option value='"+i+"'>"+i+"</option>"));
 		$("#selectNum").html(selectt+"<option value='"+i+"'>"+i+"</option>");
 	}
 	$("#btnAddCar").click(function(){

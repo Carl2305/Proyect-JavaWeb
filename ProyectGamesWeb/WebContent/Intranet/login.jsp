@@ -20,14 +20,14 @@
                 	</div>
 
                 	<div class="col-md-12 col-sm-12 col-sm-auto" id="1">
-                    	<div class="wrap-input100 validate-input">
+                    	<div class="wrap-input100">
                         	<span class="label-input100">Usuario</span>
-                        	<input class="input100" id="Usuario" name="Usuario" placeholder="" type="text" value="">
+                        	<input class="input100" id="Usuario" name="Usuario" placeholder="" type="text" value="" required="required">
                     	</div>
 
-                    	<div class="wrap-input100 validate-input">
+                    	<div class="wrap-input100">
                         	<span class="label-input100">Contraseña</span>
-                        	<input class="input100" id="text-Clave" name="Contraseña" placeholder="" type="password">
+                        	<input class="input100" id="text-Clave" name="Contraseña" placeholder="" type="password" required="required">
                     	</div>
 
                     	<div class="wrap-login100-form-btn">
@@ -43,5 +43,7 @@
 	
 <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript" src="../js/bootstrap-3.3.7.min.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
 </body>
 </html>
