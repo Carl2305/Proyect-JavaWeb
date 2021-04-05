@@ -1,14 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
 /* Adaptamos las reglas al código que genera drupal y 
 definimos los estilos generales */
 
 /* Lo primero es posicionar el formulario para asegurarnos 
 que el efecto se produce de derecha a izquierda */
 .navbar-form {
+	display:inline-block;
     position: relative;
     right:0px;
     top:0px;
@@ -61,7 +60,7 @@ pinchando de nuevo en el icono de la lupa */
         padding:8px 12px;
         position:absolute;
         right:40px;
-        width:250px;
+        width:150px;
     }
 }
 
