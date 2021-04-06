@@ -11,36 +11,8 @@
 <link href="../css/StyleIndex.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-		<div class="container">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<a class="navbar-brand" href="../PanelIntranet/">
-				<img src="../images/Logotipo_Tienda_GameStore.jpg" width="70" height="50">
-			</a>
-			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-				<a class="navbar-brand" href="../PanelIntranet/">GameStore</a>
-				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item active">
-						<a class="nav-link" href="../PanelIntranet/">Productos
-							<span class="sr-only">(Productos)</span>
-						</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Orden Venta
-							<span class="sr-only">(Orden Venta)</span>
-						</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Configuración
-							<span class="sr-only">(Configuración)</span>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+	<%@ include file="/Templates/menuIntranet.html" %>
+	
 	<main class="container">
 		<div class="mt-3 mb-3 d-flex justify-content-end">
 			<button class="btn btn-success" id="addProduct">Agregar Prducto</button>
@@ -149,11 +121,7 @@
 
 
 
-	<br>
-	<br>
-	<footer class="footer bg-dark text-center">
-		<span class="text-white">Copyright &#169; GameStore. Todos los desrechos Reservados.</span>
-	</footer>
+	<%@ include file="/Templates/footer.html" %>
 
 	<script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="../js/popper.min.js"></script>
