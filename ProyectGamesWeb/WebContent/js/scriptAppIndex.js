@@ -1,7 +1,6 @@
-/**
- * 
+/*
+ * Script GameStore Copyright 2021
  */
-
 window.addEventListener('DOMContentLoaded', () => {
 	let btnsbars=$("#btnsbar").html();
 	if($(window).width()>=992){

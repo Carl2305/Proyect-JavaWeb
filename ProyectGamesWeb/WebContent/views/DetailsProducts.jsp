@@ -16,7 +16,7 @@
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<a class="navbar-brand" href="../Intranet/login.jsp">
+			<a class="navbar-brand" href="../views/">
 				<img src="../images/Logotipo_Tienda_GameStore.jpg" width="70" height="50">
 			</a>
 			<div id="btnsbar">
@@ -40,7 +40,7 @@
 				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-				<a class="navbar-brand" href="index.jsp">GameStore</a>
+				<a class="navbar-brand" href="../views/">GameStore</a>
 				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 					<li class="nav-item active">
 						<a class="nav-link" href="#">Xbox
