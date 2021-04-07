@@ -8,6 +8,7 @@
 <title>Panel Intranet</title>
 <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="../css/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 <link href="../css/StyleIndex.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -89,7 +90,7 @@
 								<label>Seleccionar Imagen</label>
 								<input type="file" name="uploadimg" size="1" accept="image/png, image/jpeg, image/gif" id="uploadimg" style="width: 155px;">
 							</div>
-							<div class="col-12 mt-2">
+							<div class="col-12 mt-2" id="imgP">
                             	<img class="img-fluid" id="imgPreview">
                             </div>
 						</div>

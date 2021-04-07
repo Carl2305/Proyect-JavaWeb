@@ -14,7 +14,7 @@
 
 	<%@ include file="/Templates/menu.html" %>
 
-	<div class="container">
+	<main class="container">
 		<div class="row mt-5 mb-3">
 			<%
 			// aquí se pintaran todos los productos
@@ -37,7 +37,7 @@
 				</div>
 			</div>
 		</template>
-	</div>
+	</main>
 
 	<%@ include file="/Templates/footer.html" %>
 

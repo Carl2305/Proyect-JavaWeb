@@ -13,8 +13,8 @@
 <body>
 	<%@ include file="/Templates/menu.html" %>
 	
-	<div class="container p-0">
-		<main class="row m-2 m-sm-3 ml-md-0 mr-md-0 mt-md-5 mb-md-5 ml-lg-0 mr-lg-0 mt-lg-5 mb-lg-5">
+	<main class="container p-0">
+		<div class="row m-2 m-sm-3 ml-md-0 mr-md-0 mt-md-5 mb-md-5 ml-lg-0 mr-lg-0 mt-lg-5 mb-lg-5">
 			<section class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
 				<img src="" style="width: 100%;" height="400">
 			</section>
@@ -47,7 +47,7 @@
 					</div>
 				</div>
 			</section>
-		</main>
+		</div>
 		<div class="sliderProductos">
 			<%
 			//aqui debe ir un carrucel de publicidad
@@ -89,7 +89,7 @@
 				</a>
 			</div>
 		</div>
-	</div>
+	</main>
 	<div class="modal" tabindex="-1" id="modalAddCar">
   		<div class="modal-dialog">
     		<div class="modal-content">
